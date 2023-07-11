@@ -31,6 +31,7 @@ body {
     display: block;
     max-width: 600px;
     margin: auto;
+    margin-bottom: 45px;
 }
 /* Header */
 .header {
@@ -63,20 +64,75 @@ body {
 }
 
 /* Main */
-main {
-     padding: 0 150px;
-}
+
 
 /*feature */
 .feature {
+    padding: 0 150px;
     margin-top: 120px;
+    margin-bottom: 80px;
 }
 .flower-set {
     display: flex;
+    justify-content: center;
 }
-.first-box {
+.box {
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    width: 464px;
-    height: 538px;
+    width: 345px;
+    height: 400px;
+}
+.first img{
+    width: 250px;
+    margin: 55px 0 0 30px;
+}
+.second img {
+    width: 250px;
+    margin: 80px 0 0 45px;
+}
+.third img{
+    width: 250px;
+    margin: 25px 0 0 45px;
+}
+.flower-box h5{
+    color: #272727;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 20px;
+}
+.first{
+     background: rgba(167, 33, 98, 0.15);
+}
+.second{
+    background: rgba(5, 151, 160, 0.15);
+}
+.third{
+    background: rgba(71, 125, 17, 0.15);
+}
+.flower-box{
+    margin-right: 24px;
+}
+
+/* Hot Deal */
+.hot-deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 0 150px;
+}
+.sec-banner{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-content {
+    margin-top: 160px;
+}
+.sec-content button {
+    display: block;
+    margin: auto;
+}
+.sec-image{
+    width: 300px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
